@@ -26,7 +26,7 @@ const Register = () => {
     setLoader(true)
     try {
       const response = await axios.post(
-        'https://mongoose-login.onrender.com/register',
+        'https://video-mangement.onrender.com/register',
         {
           username,
           email,
