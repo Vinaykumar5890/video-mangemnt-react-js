@@ -27,7 +27,7 @@ const ChangePassword = () => {
     setLoader(true)
     try {
       const response = await axios.put(
-        'https://mongoose-login.onrender.com/changePassword',
+        'https://video-mangement.onrender.com/changePassword',
         {
           email,
           oldPassword,
