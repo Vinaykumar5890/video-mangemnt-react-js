@@ -1,0 +1,48 @@
+.videos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video-item {
+  margin: 20px;
+}
+.video-item h3 {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.video-item h2 {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.video-item p {
+  color: #cccc;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  color: aqua;
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.add-video-button {
+  background-color: black;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  height: fit-content;
+}
