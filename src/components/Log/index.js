@@ -32,7 +32,7 @@ class Log extends Component {
     this.setState({loader: true})
     try {
       const response = await axios.post(
-        'https://mongoose-login.onrender.com/login',
+        'https://video-mangement.onrender.com/login',
         userDetails,
       )
       Cookies.set('jwt_token', await response.data.jwtToken, {
