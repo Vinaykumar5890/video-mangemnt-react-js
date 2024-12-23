@@ -20,7 +20,8 @@ Key Features:
 **Clone the Repository**:
 
 ``
-git clone https://github.com/username/video-management-system.git
+git clone https://github.com/username/video-management.git
+
 Navigate to the Project Directory:
 
 ``
